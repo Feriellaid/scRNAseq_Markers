@@ -24,3 +24,12 @@ Genes are classified as:
 
 Only genes with pct difference ≥ 0.1 are displayed.
 
+## Pipeline to validate endothelial vs fibroblast clusters in scRNA-seq data.
+
+### Steps:
+
+Filter markers per cluster based on significance and expression (filter_markers.R).
+
+Annotate genes with full names (annotate_genes.R).
+
+Visualize expression with heatmaps for log2FC and pct.1
